@@ -23,7 +23,7 @@ st.sidebar.markdown("""
 st.title("📱 Aplikasi Prediksi Harga Smartphone")
 st.markdown("Gunakan aplikasi ini untuk memprediksi *kelas harga* smartphone berdasarkan spesifikasi teknisnya.")
 
-st.image("brand.png", use_column_width=True)
+st.image("brand.png", use_container_width=True)
 
 with st.expander("ℹ️ Tentang Aplikasi"):
     st.write("""
